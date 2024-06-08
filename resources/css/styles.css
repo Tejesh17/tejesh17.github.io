@@ -26,7 +26,12 @@
 		transform: translate(-50%, -60%);
 		 .text {
 			font-family:  Arial, sans-serif;
-			font-size: 165%;
+			font-size: 140%;
+			color: #fff;
+		}
+		 .textBig {
+			font-family:  Arial, sans-serif;
+			font-size: 190%;
 			color: #fff;
 		}
 		a {
