@@ -1,0 +1,38 @@
+.bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-image: url("../img/bg-1.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+	height: 100%;
+	background: rgba(1,1,1,0.45);
+	.content{
+		position: fixed; /* or absolute */
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -60%);
+		 .text {
+			font-family:  Arial, sans-serif;
+			font-size: 145%;
+			color: #fff;
+		}
+		a {
+			text-decoration: none;
+			margin-right: 10px;
+			cursor: pointer;
+		}
+	}
+}
